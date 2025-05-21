@@ -16,7 +16,7 @@ body{
     background-color: var(--backgroundgray);
     display: flex;
     justify-content: center;
-    height: 1000vh;
+    height: 100vh;
     
 }
 
@@ -175,7 +175,7 @@ body{
 
 }
 
-.about .abouttext{
+.abouttext{
     font-size: 30px;
     color: white;
     height: 500px;
@@ -189,7 +189,50 @@ body{
     
 }
 
-.about .abouttext p{
+.abouttext p{
+    font-size: 30px;
+    color: white;
+
+    
+}
+
+.kontakty{
+    margin-top: 1500px; 
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--darkerbackgroundgray);
+    height: 500px;
+    align-items: center;
+    gap: 80px;
+    margin-left: -1897px;
+}
+
+.kontakty_nadpis{
+    font-size: 200px;
+    margin-left: 50px;
+    color: white;
+    justify-content: center;
+
+
+}
+
+.kontakty_text{
+    font-size: 30px;
+    color: white;
+    height: 500px;
+    background-color: rgb(53, 53, 53);
+    flex:1 1 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+    
+}
+
+.kontakty_text p{
     font-size: 30px;
     color: white;
 
