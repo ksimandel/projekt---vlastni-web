@@ -1,0 +1,65 @@
+/* .tsite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-top: 190px; 
+    height: 500px;
+    width: 100%;
+    gap: 200px;
+}
+
+.tsite img{
+    height: 500px;
+    width: 700px;
+    object-fit: cover;
+ margin-right: -1405px;
+}
+
+.tsite h2{
+    font-size: 50px;
+    color: white;
+    margin-top: -150px;
+    margin-left: 1000px;
+    display: flex;
+}
+
+.ctsite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1000px;
+    height: 500px;
+    width: 100%;
+} */
+
+.tsite, .ctsite {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 200px;
+  }
+  
+  .tsite h2 {
+    color: #ff5555; /* červená pro teroristy */
+  }
+  
+  .ctsite h2 {
+    color: #55aaff; /* modrá pro CT */
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Obrázky týmů */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
