@@ -1,0 +1,80 @@
+.weapons{
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 500vh;
+    width: 100%;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+}
+
+.pistols{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.pistols div{
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: gray;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pistols img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+
+}
+
+
+
+.rifles{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.rifles div{
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: gray;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rifles img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+
+}
