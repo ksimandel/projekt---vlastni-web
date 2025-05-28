@@ -1,9 +1,9 @@
 .weapons{
-    padding-top: 300px;
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    height: 500vh;
+    height: 400vh;
     width: 100%;
     align-items: center;
 }
@@ -34,6 +34,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease;
 }
 .pistols img{
     display: flex;
@@ -68,6 +69,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease;
 }
 .rifles img{
     display: flex;
@@ -75,6 +77,39 @@ h2{
     height: 100%;
     width: 100%;
     object-fit: contain;
-    
+}
 
+.smg{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.smg div{
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: gray;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+.smg img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pistols div:hover, .rifles div:hover, .smg div:hover{
+    box-shadow: 0px 0px 5px 5px rgb(255,255,255,.6);
 }
