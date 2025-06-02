@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    height: 400vh;
+    height: 200vh;
     width: 100%;
     align-items: center;
 }
