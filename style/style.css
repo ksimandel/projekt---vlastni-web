@@ -16,7 +16,7 @@ body{
     background-color: var(--backgroundgray);
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 170vh;
     
 }
 
@@ -155,86 +155,50 @@ body{
 }
 
 
-.about{
-    margin-top: 1000px; 
+.reveal {
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: all 0.6s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.kontakt{
     display: flex;
-    justify-content: left;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+    margin-top: 110vh;
+    gap: 5px;  
+    align-items: center;
     background-color: var(--darkerbackgroundgray);
     height: 500px;
-    align-items: center;
-    gap: 80px;
+    border-radius: 20px;
+    width: 600px;
 }
 
-.about h2{
-    font-size: 200px;
-    margin-left: 50px;
-    color: white;
-    justify-content: center;
-
-}
-
-.abouttext{
+.kontakt input{
     font-size: 30px;
-    color: white;
-    height: 500px;
-    background-color: rgb(53, 53, 53);
-    flex:1 1 0;
+    border-radius: 15px;
+    width: 500px;
     display: flex;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-
-    
-}
-
-.abouttext p{
-    font-size: 30px;
-    color: white;
-
-    
-}
-
-.kontakty{
-    margin-top: 1500px; 
-    display: flex;
-    justify-content: left;
     flex-direction: row;
-    width: 100%;
-    background-color: var(--darkerbackgroundgray);
-    height: 500px;
-    align-items: center;
-    gap: 80px;
-    margin-left: -1897px;
+    justify-content: left;
 }
 
-.kontakty_nadpis{
-    font-size: 200px;
-    margin-left: 50px;
-    color: white;
-    justify-content: center;
-
-
+.kontakt .text{
+    height: 250px;
+    width: 500px;
+    border-radius: 15px;
+    font-size: 20px;
 }
 
-.kontakty_text{
-    font-size: 30px;
+.kontakt h2{
     color: white;
-    height: 500px;
-    background-color: rgb(53, 53, 53);
-    flex:1 1 0;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-
-    
 }
 
-.kontakty_text p{
-    font-size: 30px;
+.kontakt p{
     color: white;
-
-    
+    font-size: 20px;
 }
