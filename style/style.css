@@ -202,3 +202,48 @@ body{
     color: white;
     font-size: 20px;
 }
+
+.kontakt button{
+    height: 100px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(228, 162, 39);
+}
+
+.kontakt button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.95);
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #ffcc00;
+    z-index: 1000;
+    color: white;
+  }
+
+  .cookie-banner p {
+    margin: 0 0 10px;
+  }
+
+  .cookie-banner button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .cookie-banner button:hover {
+    background-color: #e6b800;
+  }
